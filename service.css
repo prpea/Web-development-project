@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.services{
+    background: #f1f1f1;
+    text-align: center;
+}
+.service1{
+    background: url(plumber.jpg);
+    text-align: center;
+
+}
+.service2{
+    background: url(carpentry.jpg);
+}
+.service3{
+    background: url(painting.jpg);
+}
+.service4{
+    background: url(electrical.jpg);
+}
+.service1, .service2, .service3, .service4{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+.cen{
+    max-width: 3000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.service1, .service2, .service3, .service4{
+    display: inline-block;
+    width: calc(100%/3);
+    margin: 0 -2px;
+    padding: 120px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.service1, .service2, .service3, .service4 h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+.service1, .service2, .service3, .service4 p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
